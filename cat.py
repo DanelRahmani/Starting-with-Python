@@ -1,4 +1,2 @@
-x = 0
-while x < 50:
+for i in range(3):
     print("Meow")
-    x += 1
