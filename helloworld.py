@@ -1,5 +1,8 @@
 # Day 1 - 30DaysOfPython Challenge
 
+from cmath import sqrt
+
+
 print(3 + 4)             # addition(+)
 print(3 - 4)             # subtraction(-)
 print(3 * 4)             # multiplication(*)
@@ -26,3 +29,6 @@ print(type(['Danel', 'Rahmani','The Netherlands']))   # List
 print(type({'name':'Danel'})) # Dictionary
 print(type({9.8, 3.14, 2.7}))    # Set
 print(type((9.8, 3.14, 2.7)))    # Tuple
+
+
+print(sqrt((((2-10)**2)+((3-8)**2))))
